@@ -333,7 +333,7 @@ const App = () => {
             </svg>
           </div>
           <div className="flex-grow">
-            <label className="block text-sm font-medium text-gray-700">Date de paiement</label>
+            <label className="block text-sm font-medium text-gray-700">Date de programmation</label>
             <input 
               type="date" 
               value={dateNotification} 
@@ -550,7 +550,7 @@ const App = () => {
                 </div>
                 <div className="mt-4 text-sm text-gray-600">
                   <p>Destinataire: {previewBeneficiaire.telephone}</p>
-                  <p className="mt-1">Date de paiement: {dateNotification}</p>
+                  <p className="mt-1">Date de programmation: {dateNotification}</p>
                 </div>
                 <div className="mt-4 text-sm text-gray-700">
                   <p className="font-medium mb-1">Éditer ce message:</p>

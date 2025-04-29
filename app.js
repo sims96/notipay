@@ -856,7 +856,7 @@ const AddTab = ({ ajouterBeneficiaire, apiSettings, dateNotification }) => {
         </div>
         
         <div className="form-group">
-          <label htmlFor="reference" className="form-label">Numéro de bulletin</label>
+          <label htmlFor="reference" className="form-label">Numéro de bon</label>
           <input
             type="text"
             id="reference"
